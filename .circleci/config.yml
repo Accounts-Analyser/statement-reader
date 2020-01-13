@@ -9,7 +9,7 @@ jobs:
       - run: prove -lr
 
 workflows:
-version: 2
-test:
+  version: 2
+  test:
     jobs:
     - test
